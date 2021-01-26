@@ -1,0 +1,306 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ここから　*/
+body {
+  font-size: 15px;
+  font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+  line-height: 1.8;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 1040px;
+  margin: 0 320px;
+}
+
+header{
+  height: 900px;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 110px;
+}
+
+.header-left{
+  float: left;
+  padding-right: 190px;
+}
+
+.header-left h1{
+  color: #111111;
+  font-size: 36px;
+}
+
+.header-left p{
+  color: #777777;
+}
+
+.fas{
+  padding-left: 5px;
+}
+
+.header-right a{
+  float: left;
+  padding-top: 65px;
+  padding-left: 30px;
+  display: block;
+  color: #444444;
+}
+
+.header-right a:hover{
+  color: #c49029;
+}
+
+.fa-seach{
+  font-size: 5px;
+  float: right;
+}
+
+.se{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 67px;
+}
+
+header img{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
+
+.text{
+  font-size: 27px;
+}
+
+.main {
+  height: 1420px;
+  border-bottom: 1px solid #111111;
+}
+
+.day{
+  height: 140px;
+  margin-bottom: 75px;
+}
+
+.day-left{
+  width: 340px;
+  height: 140px;
+  float: left;
+  font-size: 16px;
+}
+
+.day-right h2{
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.day-right p{
+  font-size: 16px;
+}
+
+.btn{
+  text-align: center;
+}
+
+.btn button{
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: solid 1px #ddd;
+}
+
+.profile{
+  height: 460px;
+  border-bottom: 1px solid #111111;
+}
+
+.name{
+  padding: 60px 35px;
+  float: left;
+  width: 25%;
+}
+
+.name img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 18px;
+    position: absolute;
+}
+
+.name h4{
+  font-size: 18px;
+  position: relative;
+  top: 0px;
+  left: 120px;
+  padding-top: 8px;
+}
+
+.name li{
+  font-size: 24px;
+  float:left;
+  margin-right: 15px;
+  position: relative;
+  top: 0px;
+  left: 120px;
+  padding-top: 15px;
+}
+
+.name p{
+  font-size: 16px;
+}
+
+.set{
+  padding-top: 84px;
+}
+
+.name h3{
+  font-size: 18px;
+  padding-bottom: 34px;
+}
+
+.dai{
+  padding-bottom: 12px;
+}
+
+.name input{
+  font-size: 16px;
+  padding: 12px;
+  margin-top: 50px;
+}
+
+footer{
+  height: 150px;
+}
+
+.social{
+  padding-top: 50px;
+  position: absolute;
+}
+
+.social li{
+  font-size: 24px;
+  float: left;
+  margin-right: 20px;
+}
+
+footer p{
+  position: relative;
+  top: 55px;
+  text-align: center;
+}
